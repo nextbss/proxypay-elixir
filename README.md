@@ -21,7 +21,7 @@ end
 ### Create a payment request with ProxyPay
 Full code to create a payment request using ProxyPay.
 ```elixir
-  config = %Config{api_key: "uv809rb9aemuon3gc8cfq89ik8jurs0m", environment: "SANDBOX"}
+  config = %Config{api_key: "YOUR_API_KEY", environment: "SANDBOX"}
   {state, id} = ExProxyPay.generate_reference_id(config)
   ExProxyPay.create_reference(id, %PaymentReference{amount: 100, end_datetime: "2020/03/14", custom_fields: nil}, config)
 ```
