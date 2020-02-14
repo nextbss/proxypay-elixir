@@ -4,9 +4,15 @@ defmodule ExProxypay.MixProject do
   def project do
     [
       app: :ex_proxypay,
+      description: "A library that helps you easily interact with the ProxyPay API using the elixir programming language",
       version: "0.1.0",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
+      package: [
+        maintainers: ["Alexandre Juca"],
+        licenses: ["MIT"],
+        links: %{"Github" => "https://github.com/nextbss/proxypay-elixir"}
+      ],
       deps: deps()
     ]
   end
