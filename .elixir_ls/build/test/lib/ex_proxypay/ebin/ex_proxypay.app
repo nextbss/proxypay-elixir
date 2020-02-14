@@ -1,9 +1,0 @@
-{application,ex_proxypay,
-             [{applications,[kernel,stdlib,elixir,logger,poison,httpoison]},
-              {description,"ex_proxypay"},
-              {modules,['Elixir.Config','Elixir.ExProxyPay',
-                        'Elixir.HttpResponseHandler',
-                        'Elixir.PaymentReference',
-                        'Elixir.Poison.Encoder.PaymentReference']},
-              {registered,[]},
-              {vsn,"0.1.0"}]}.
