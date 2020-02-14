@@ -5,8 +5,6 @@
 **A library that helps you easily interact with the ProxyPay API using the elixir programming language.**
 
 
-
-
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
@@ -72,7 +70,8 @@ This endpoint deletes a reference with given Id
 
 ### Acknowledge a payment
 This method is used to acknowledge that a payment was processed
-```
+
+```elixir
   ExProxyPay.acknowledge_payment(id, config)
 ```
 
